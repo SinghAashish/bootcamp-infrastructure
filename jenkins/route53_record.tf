@@ -5,7 +5,7 @@ data "aws_route53_zone" "main" {
 
 resource "aws_route53_record" "jenkins" {
   zone_id = data.aws_route53_zone.main.zone_id
-  name    = "REPLACE-USERNAME.jenkins.${data.aws_route53_zone.main.name}"
+  name    = "aashish.jenkins.${data.aws_route53_zone.main.name}"
   type    = "A"
 
   alias {

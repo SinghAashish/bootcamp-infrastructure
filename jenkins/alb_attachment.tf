@@ -57,7 +57,7 @@ resource "aws_lb_listener_rule" "forward_to_jenkins" {
 
   condition {
     host_header {
-      values = ["REPLACE-USERNAME.jenkins.bootcamp2021.online"]
+      values = ["aashish.jenkins.bootcamp2021.online"]
     }
   }
 

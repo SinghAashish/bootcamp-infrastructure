@@ -19,7 +19,7 @@ $ terraform plan -out tfplan
 $ terraform apply tfplan
 ```
 
-The Jenkins must be reachable at https://REPLACE-USERNAME.jenkins.bootcamp2021.online
+The Jenkins must be reachable at https://aashish.jenkins.bootcamp2021.online
 
 ### Steps to de-provision
 
