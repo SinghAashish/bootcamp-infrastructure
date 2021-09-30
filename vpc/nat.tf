@@ -52,7 +52,7 @@ resource "aws_nat_gateway" "nat_gw_us_east_1b" {
   depends_on = [aws_internet_gateway.igw]
 }
 
-resource "aws_eip" "nat_eip_us_east_1c" {
+/*resource "aws_eip" "nat_eip_us_east_1c" {
   vpc = true
 
   tags = merge(
@@ -77,4 +77,4 @@ resource "aws_nat_gateway" "nat_gw_us_east_1c" {
   )
 
   depends_on = [aws_internet_gateway.igw]
-}
+}*/
